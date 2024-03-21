@@ -33,7 +33,6 @@ class ProjectResource extends Resource
 
     public static function form(Form $form): Form
     {
-        // asdasd
         return $form
             ->schema([
                 Hidden::make('user_id')
